@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" Login, Logout, User profile, """
+""" Basic Flask app, Register user, Log in, Log out, User profile,
+    Get reset passwords token, Update password end-point """
 from flask import Flask, jsonify, request, abort, redirect
 from auth import Auth
 app = Flask(__name__)
