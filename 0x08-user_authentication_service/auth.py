@@ -48,7 +48,7 @@ class Auth:
                                   hashed_password=user.hashed_password)
 
     def create_session(self, email: str) -> str:
-        """returns the session ID as a string """
+        """returns the session ID """
         try:
             user = self._db.find_user_by(email=email)
         except NoResultFound:
