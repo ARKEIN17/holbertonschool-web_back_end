@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Create user, Find user, Update user """
+""" search for the user if there is an actualiz, if not create it """
 from sqlalchemy import create_engine
 from sqlalchemy.exc import InvalidRequestError
 from sqlalchemy.ext.declarative import declarative_base
